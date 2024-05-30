@@ -5,6 +5,16 @@ import { MdClose } from "react-icons/md";
 import { NavLink } from 'react-router-dom';
 // import { Link } from "react-scroll";
 import { MdOutlineMenu } from "react-icons/md";
+import { PiTelevisionSimpleLight } from "react-icons/pi";
+import { GiPowerGenerator } from "react-icons/gi";
+import { RiHomeWifiLine } from "react-icons/ri";
+import { FaKitchenSet } from "react-icons/fa6";
+import { MdOutlineKitchen } from "react-icons/md";
+import { RiArmchairFill } from "react-icons/ri";
+import { PiLightbulbFilamentThin } from "react-icons/pi";
+import { GiTheaterCurtains } from "react-icons/gi";
+import { LuCable } from "react-icons/lu";
+import { IoGameControllerOutline } from "react-icons/io5";
 
 const Header = () => {
 
@@ -164,22 +174,26 @@ const Header = () => {
                     <a href="" className='text-black hover:text-white'>Wires</a>
                 </div>
 
-                <div className={` ${dropdown2 ? 'transform translate-x-0' : 'transform -translate-x-full'} md:hidden w-[270px] h-[400px] absolute bg-[#3e4095] backdrop-blur-m bg-whit bg-opacity-80 shadow-md top-0 left-0 flex flex-col gap-[10px] transition-all ease-in-out z-30 duration-300 p-[20px] `} onClick={showDropdown2}>
+                <div className={` ${dropdown2 ? 'transform translate-x-0' : 'transform -translate-x-full'} md:hidden w-[270px] h-[450px] absolute bg-[#3e4095] backdrop-blur-m bg-whit bg-opacity-90 shadow-md top-0 left-0 flex flex-col gap-[10px] transition-all ease-in-out z-30 duration-300 p-[20px] `} onClick={showDropdown2}>
 
                     <div className='text-[25px] mb-[20px] text-black bg-white rounded-md p-1 absolute right-[20px] top-[23px]' onClick={showDropdown2}>
                         <MdClose />
                     </div>
 
-                    <h6 className='font-bold text-[20px] text-[#3e4095] bg-white p-1 rounded-md'>
+                    <h6 className='font-bold text-[16px] text-[#3e4095] bg-white p-2 rounded-md'>
                         Cartegories
                     </h6>
 
-                    <a href="" className='text-white hover:text-white mt-[20px]'>Televisions</a>
-                    <a href="" className='text-white hover:text-white'>Generators</a>
-                    <a href="" className='text-white hover:text-white'>Fans</a>
-                    <a href="" className='text-white hover:text-white'>Fridge</a>
-                    <a href="" className='text-white hover:text-white'>Doors</a>
-                    <a href="" className='text-white hover:text-white'>Wires</a>
+                    <a href="" className='text-white hover:text-white flex items-center gap-4'><span className="text-[15px]"><PiTelevisionSimpleLight /></span>Televisions</a>
+                    <a href="" className='text-white hover:text-white flex items-center gap-4'><span className="text-[15px]"><GiPowerGenerator /></span>Generators</a>
+                    <a href="" className='text-white hover:text-white flex items-center gap-4'><span className="text-[15px]"><MdOutlineKitchen /></span>Air Conditioners</a>
+                    <a href="" className='text-white hover:text-white flex items-center gap-4'><span className="text-[15px]"><RiHomeWifiLine /></span>Home Appliances</a>
+                    <a href="" className='text-white hover:text-white flex items-center gap-4'><span className="text-[15px]"><FaKitchenSet /></span>Kitchen Appliances</a>
+                    <a href="" className='text-white hover:text-white flex items-center gap-4'><span className="text-[20px]"><RiArmchairFill /></span>Furnitures</a>
+                    <a href="" className='text-white hover:text-white flex items-center gap-4'><span className="text-[20px]"><GiTheaterCurtains /></span>Decorations</a>
+                    <a href="" className='text-white hover:text-white flex items-center gap-4'><span className="text-[20px]"><PiLightbulbFilamentThin /></span>Bulbs & Lights</a>
+                    <a href="" className='text-white hover:text-white flex items-center gap-4'><span className="text-[20px]"><LuCable /></span>Cables & Wires</a>
+                    <a href="" className='text-white hover:text-white flex items-center gap-4'><span className="text-[20px]"><IoGameControllerOutline /></span>Games & Accessories</a>
                 </div>
             </div>
         </div>
