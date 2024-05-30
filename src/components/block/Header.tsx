@@ -20,8 +20,8 @@ const Header = () => {
     }
 
   return (
-    <div className={`w-full h-[140px] lg:h-[130px flex flex-col justify-center items-center shadow-m font-pop fixed z-40 bg-white text-white  shadow-m `}>
-        <div className="w-[90%] h-[50%] flex flex-co justify-between items-center ">
+    <div className={`w-full h-[140px] lg:h-[130px flex flex-col justify-center items-center shadow-m font-pop fixe z-40 bg-white text-white  shadow-m `}>
+        <div className="w-[90%] h-[50%] flex flex-co justify-between items-center border-b-[1px] border-b-gray-300  ">
 
             {/* <div className='hidden w-[100%] h-full lg:flex justify-between items-center'>
 
@@ -144,13 +144,13 @@ const Header = () => {
                 null
         } */}
 
-        <div className='w-[100%] h-[50%] flex justify-center items-center bg-orange-400 relative'>
+        <div className='w-[100%] h-[50%] flex justify-center items-center bg-orange-40 shadow-m border-b-[1px] border-b-gray-300 relative'>
             <div className='w-[90%] flex items-center gap-[70px] '>
                     {  dropdown2 ?
                         
                         null
                     : 
-                        <div className='text-[25px] text-black p-1 rounded-md bg-white cursor-pointer md:cursor-not-allowed' onClick={showDropdown2}>
+                        <div className='text-[25px] text-[#3e4095] p-1 rounded-md bg-white cursor-pointer md:cursor-not-allowed' onClick={showDropdown2}>
                             <MdOutlineMenu />
                         </div>
                     }
@@ -164,13 +164,13 @@ const Header = () => {
                     <a href="" className='text-black hover:text-white'>Wires</a>
                 </div>
 
-                <div className={` ${dropdown2 ? 'transform translate-x-0' : 'transform -translate-x-full'} md:hidden w-[270px] h-[400px] absolute bg-black backdrop-blur-m bg-whit bg-opacity-80 shadow-md top-0 left-0 flex flex-col gap-[10px] transition-all ease-in-out z-30 duration-300 p-[20px] `} onClick={showDropdown2}>
+                <div className={` ${dropdown2 ? 'transform translate-x-0' : 'transform -translate-x-full'} md:hidden w-[270px] h-[400px] absolute bg-[#3e4095] backdrop-blur-m bg-whit bg-opacity-80 shadow-md top-0 left-0 flex flex-col gap-[10px] transition-all ease-in-out z-30 duration-300 p-[20px] `} onClick={showDropdown2}>
 
                     <div className='text-[25px] mb-[20px] text-black bg-white rounded-md p-1 absolute right-[20px] top-[23px]' onClick={showDropdown2}>
                         <MdClose />
                     </div>
 
-                    <h6 className='font-bold text-[20px] text-black bg-white p-1 rounded-md'>
+                    <h6 className='font-bold text-[20px] text-[#3e4095] bg-white p-1 rounded-md'>
                         Cartegories
                     </h6>
 
