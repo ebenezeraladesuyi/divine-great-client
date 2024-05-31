@@ -1,9 +1,9 @@
 // import React from 'react'
 
 import { Outlet } from "react-router-dom"
-import { Footer, Header } from "../components"
+import { Footer, Header } from "../components/block"
 
-const HomeLayout = () => {
+const ContactLayout = () => {
   return (
     <div>
         <Header />
@@ -13,4 +13,4 @@ const HomeLayout = () => {
   )
 }
 
-export default HomeLayout
+export default ContactLayout

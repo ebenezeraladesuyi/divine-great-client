@@ -136,7 +136,7 @@ const Hero = () => {
                                     initial={{ opacity: 0, y: -50 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.8, delay: 1.2 }}
-                                >Enhance Your <br /><span className="font-bold">Entertainment</span></motion.h6>
+                                >Great Stores <br /><span className="font-bold">Great Choices</span></motion.h6>
 
                                 <motion.h6 className="text-[14px]"
                                     initial={{ opacity: 0, y: -50 }}
@@ -172,7 +172,7 @@ const Hero = () => {
                                     initial={{ opacity: 0, y: -50 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.8, delay: 1.2 }}
-                                >Enhance Your <br /><span className="font-bold">Entertainment</span></motion.h6>
+                                >Not Home? <br /><span className="font-bold">Stay Cool!</span></motion.h6>
 
                                 <motion.h6 className="text-[14px]"
                                     initial={{ opacity: 0, y: -50 }}

@@ -31,7 +31,7 @@ const Shipment = () => {
             <ShipmentCard 
                 icon={<MdAssuredWorkload/>}
                 title="Guaranteed Warranty Period"
-                details="All ourproducts have a quaranteed warranty period, that doesn't fail."
+                details="All our products have a quaranteed warranty period, that doesn't fail."
              />
         </div>
     </div>

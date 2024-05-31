@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo/divine-Logo.png";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
 import { NavLink } from 'react-router-dom';
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 import { MdOutlineMenu } from "react-icons/md";
 import { PiTelevisionSimpleLight } from "react-icons/pi";
 import { GiPowerGenerator } from "react-icons/gi";
@@ -48,41 +48,26 @@ const Header = () => {
                 </div>
             </NavLink>
 
-            {/* <div className='hidden lg:flex p-2 px-6 rounded-md bg-white shadow-md text-[20px] text-black gap-6'>
-                <a className='decoration- cursor-pointer text-black '><FaSquareFacebook /></a>
-                <a className='decoration-non cursor-pointer text-black '><FaTwitterSquare /></a>
-                <a className='decoration-non cursor-pointer text-black '><FaLinkedin /></a>
-                <a className='decoration-non cursor-pointer text-black '><FaSquareInstagram /></a>
-            </div> */}
-
             {/* <h4 className='text-[17px] z-50 shadow-md text-white bg-opacity-40 rounded-[30px] relative p-1 px-3 rounded-m bg-black'>DanWilliams Consult</h4> */}
 
             <div className='lg:bg-white lg:bg-opacity-4 rounded-[30px] lg:shadow-m p-3'>
                 <li className="hidden lg:flex items-center gap-5 text-[15px] transition-all duration-500 ease-in-out">
                     <NavLink to="/">
-                        <ol className='text-black hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Home</ol>
+                        <ol className='text-[#3e4095] hover:text-[#000000] cursor-pointer font-semibol transition-all duration-300 ease-in-out'>Home</ol>
                     </NavLink>
 
-                    {/* <Link offset={-100} smooth={true} duration={500} to="offer"> */}
+                    <Link offset={-100} smooth={true} duration={500} to="products">
+                    {/* <NavLink to='/'> */}
+                        <ol className='text-[#3e4095]  hover:text-[#000000] cursor-pointer font-semibol transition-all duration-300 ease-in-out'>Our Products</ol>
+                    </Link>
+
                     <NavLink to='/'>
-                        <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Our Products</ol>
-                    </NavLink>
-
-                    {/* <NavLink to='/'>
-                        <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Unveiling Summit</ol>
-                    </NavLink> */}
-
-                    {/* <Link offset={-100} smooth={true} duration={500} to="">
-                        <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Blog</ol>
-                    </Link> */}
-
-                    <NavLink to='/about'>
-                        <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>About Us</ol>
+                        <ol className='text-[#3e4095]  hover:text-[#000000] cursor-pointer font-semibol transition-all duration-300 ease-in-out'>About Us</ol>
                     </NavLink>
 
                     {/* <Link offset={-100} smooth={true} duration={500} to="contact"> */}
                     <NavLink to='/contact'>
-                        <ol className='text-black  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Contact Us</ol>
+                        <ol className='text-[#3e4095]  hover:text-[#000000] cursor-pointer font-semibol transition-all duration-300 ease-in-out'>Contact Us</ol>
                     </NavLink>
 
                     {/* <NavLink to="/firststep">
@@ -119,20 +104,12 @@ const Header = () => {
                             <ol className='text-white hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Home</ol>
                         </NavLink>
 
-                        {/* <Link  offset={-100} smooth={true} duration={500} to="offer"> */}
-                        <NavLink to='/'>
+                        <Link  offset={-100} smooth={true} duration={500} to="products">
+                        {/* <NavLink to='/'> */}
                             <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Our Products</ol>
-                        </NavLink>
+                        </Link>
 
-                        {/* <NavLink to='/'>
-                            <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Unveiling Summit</ol>
-                        </NavLink> */}
-
-                        {/* <Link offset={-100} smooth={true} duration={500} to="">
-                            <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Blog</ol>
-                        </Link> */}
-
-                        <NavLink to='/about'>
+                        <NavLink to='/'>
                             <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>About Us</ol>
                         </NavLink>
 
