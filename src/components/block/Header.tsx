@@ -16,6 +16,7 @@ import { GiTheaterCurtains } from "react-icons/gi";
 import { LuCable } from "react-icons/lu";
 import { IoGameControllerOutline } from "react-icons/io5";
 
+
 const Header = () => {
 
     const [dropdown, setDropdown] = React.useState(false)
@@ -30,7 +31,7 @@ const Header = () => {
     }
 
   return (
-    <div className={`w-full h-[140px] lg:h-[130px flex flex-col justify-center items-center shadow-m font-pop fixe z-40 bg-white text-white  shadow-m `}>
+    <div id='header' className={`w-full h-[140px] lg:h-[130px flex flex-col justify-center items-center shadow-m font-pop fixe z-40 bg-white text-white  shadow-m relative`}>
         <div className="w-[90%] h-[50%] flex flex-co justify-between items-center border-b-[1px] border-b-gray-300  ">
 
             {/* <div className='hidden w-[100%] h-full lg:flex justify-between items-center'>
@@ -61,9 +62,9 @@ const Header = () => {
                         <ol className='text-[#3e4095]  hover:text-[#000000] cursor-pointer font-semibol transition-all duration-300 ease-in-out'>Our Products</ol>
                     </Link>
 
-                    <NavLink to='/'>
+                    <Link offset={-100} smooth={true} duration={900} to="footer">
                         <ol className='text-[#3e4095]  hover:text-[#000000] cursor-pointer font-semibol transition-all duration-300 ease-in-out'>About Us</ol>
-                    </NavLink>
+                    </Link>
 
                     {/* <Link offset={-100} smooth={true} duration={500} to="contact"> */}
                     <NavLink to='/contact'>
@@ -104,14 +105,14 @@ const Header = () => {
                             <ol className='text-white hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Home</ol>
                         </NavLink>
 
-                        <Link  offset={-100} smooth={true} duration={500} to="products">
+                        <Link  offset={-100} smooth={true} duration={800} to="products">
                         {/* <NavLink to='/'> */}
                             <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>Our Products</ol>
                         </Link>
 
-                        <NavLink to='/'>
+                        <Link offset={-100} smooth={true} duration={900} to="footer">
                             <ol className='text-white  hover:text-[#eedfb0] cursor-pointer font-semibold transition-all duration-300 ease-in-out'>About Us</ol>
-                        </NavLink>
+                        </Link>
 
                         {/* <Link offset={-100} smooth={true} duration={500} to="contact"> */}
                         <NavLink to='/contact'>

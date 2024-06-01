@@ -6,10 +6,12 @@ import { MdOutlineAttachEmail } from "react-icons/md";
 import { FaFacebookSquare, FaInstagramSquare, FaWhatsappSquare } from "react-icons/fa";
 import logo from "../../assets/images/logo/divine-Logo.png";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { IoIosArrowUp } from "react-icons/io";
+import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className='w-full flex flex-col justify-center items-center font-pop bg-gray-20 pt-[40px] text-[##8995af] gap-5'>
+    <div id="footer" className='w-full flex flex-col justify-center items-center font-pop bg-gray-20 pt-[40px] text-[##8995af] gap-5 relative'>
       <div className="w-[90%] flex flex-col md:flex-row md:justify-between gap-5 md:gap-6 lg:gap-8">
 
         <div className=" flex flex-col gap-3 mb-[15px] md:mb-0 md:w-[40%]">
@@ -37,7 +39,7 @@ const Footer = () => {
 
             <h5 className="flex items-center gap-2"><span className="text-[17px] text-[#3e4095]"><LuPhoneCall /></span> 08142350346 , 09034374021</h5>
 
-            <h5 className="flex items-center gap-2"><span className="text-[17px] text-[#3e4095]"><MdOutlineAttachEmail /></span> divinegreatelectronicst@gmail.com</h5>
+            <h5 className="flex items-center gap-2"><span className="text-[17px] text-[#3e4095]"><MdOutlineAttachEmail /></span> divinegreatelectronics@gmail.com</h5>
             
           </div>
 
@@ -83,9 +85,17 @@ const Footer = () => {
 
       </div>
 
-      <div className="w-[100%] bg-gray-200 pb-[20px] flex justify-center items-center">
-        <h5 className="text-[10px] md:text-[14px] text-center lg:text-[16px] mt-[30px] text-[#3e4095] w-[90%]">Copyright &#169; 2024 Divine Great Electrical & Electronics Ventures Nig. All Right Reserved.</h5>
+      <hr className="w-[90%] border-[1px] border-[#3e4095]" />
+
+      <div className="w-[100%] bg-gray-20 pb-[0px] flex justify-center items-center mt-[0px]">
+        <h5 className="text-[10px] md:text-[13px] text-center lg:text-[16px] text-[#3e409] w-[90%]">Copyright &#169; 2024 Divine Great Electrical & Electronics Ventures Nig. All Right Reserved.</h5>
       </div>
+
+      <Link  offset={-100} smooth={true} duration={800} to="header">
+        <div className='absolute right-[30px] bottom-[30px]  animate-bounce bg-[#3e4095] text-white text-[25px] p-2 flex justify-center items-center rounded-full cursor-pointer'>
+        <IoIosArrowUp />
+        </div>
+      </Link>
 
     </div>
   )
