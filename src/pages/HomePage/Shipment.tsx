@@ -7,7 +7,7 @@ import { MdAssuredWorkload } from "react-icons/md";
 
 const Shipment = () => {
   return (
-    <div className="w-full h-[100%] py-[30px] md:h-[40vh] flex justify-center items-center overflow-hidden">
+    <div className="w-full h-[100%] py-[30px] md:h-[40vh] flex justify-center items-center overflow-hidden bg-white">
         <div className="w-[90%] h-full flex flex-col md:flex-row items-center md:justify-between gap-5">
 
             <ShipmentCard 

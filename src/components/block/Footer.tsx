@@ -18,10 +18,10 @@ const Footer = () => {
 
           <img className="w-[60px]" src={logo} alt="" />
 
-          <hr className="border-[2px] w-[50px] border-[#3e4095]" />
+          <hr className="border-[2px] w-[70px] border-[#3e4095]" />
 
           <h6 className="text-[12px] md:text-[14px] text-justify">
-            We are a trusted electrical and electoronics company in Nigeria. With over five (10) years of experience, in selling, buying, delivery and working with local and international clients and partners, and a combined wealth of specialist outcome and result mixed with professionalism. Our products have been certified by various customers within and outside the country.
+            We are a trusted electrical and electronics company in Nigeria. With over five (10) years of experience, in selling, buying, delivery and working with local and international clients and partners, and a combined wealth of specialist outcome and result mixed with professionalism. Our products have been certified by various customers within and outside the country.
           </h6>
 
           <div className="text-[12px] font-bol flex flex-col gap-2">

@@ -63,7 +63,7 @@ const Partners = () => {
     }
 
   return (
-    <div className="w-full h-[35vh] py-[30px flex justify-center items-center overflow-hidden">
+    <div className="w-full h-[35vh] py-[30px flex justify-center items-center overflow-hidden bg-white">
         <div className="w-[90%]  bg-gray-300 mt-[30px] md:mt-0">
 
             <Slider {...settings}>

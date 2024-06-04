@@ -7,7 +7,7 @@ import ac from "../../assets/images/electronics/ac.png";
 
 const Products1 = () => {
   return (
-    <div id="products" className="w-full h-[100%] py-[20px] flex justify-center items-center">
+    <div id="products" className="w-full h-[100%] py-[20px] flex justify-center items-center bg-white">
         <div className="w-[90%] flex flex-col md:flex-row md:justify-between gap-4 md:gap-0">
 
             <div className="w-full md:w-[40%] border-gray-300 border-[1px] h-[30vh] rounded-md flex justify-betwee gap-5 items-center p-2  hover:bg-gray-100  transition-all duration-300 ease-in-out ">

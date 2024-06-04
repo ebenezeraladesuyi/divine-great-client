@@ -16,7 +16,7 @@ import light from "../../assets/images/electronics/light.png";
 
 const Products2 = () => {
   return (
-    <div className="w-full h-[100%] py-[25px] flex justify-center items-center">
+    <div className="w-full h-[100%] py-[25px] flex justify-center items-center bg-white">
         <div className="w-[90%] flex flex-col gap-4">
             <div className="w-full flex justify-between items-center">
                 <h6 className="text-[#3e4095] text-[15px] md:text-[18px] font-bold animate-bounce">SELLING FAST</h6>
