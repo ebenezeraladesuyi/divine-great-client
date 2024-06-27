@@ -5,12 +5,15 @@ import './index.css'
 import IsLoading from './pages/isLoading/IsLoading'
 import { RouterProvider } from 'react-router-dom'
 import { element } from './router/Router'
+import { HelmetProvider } from 'react-helmet-async'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     {/* <App /> */}
-    <Suspense fallback={<IsLoading />}>
-      <RouterProvider router={element} />
-    </Suspense>
+    <HelmetProvider>
+      <Suspense fallback={<IsLoading />}>
+        <RouterProvider router={element} />
+      </Suspense>
+    </HelmetProvider>
   </React.StrictMode>,
 )

@@ -20,9 +20,9 @@ const Footer = () => {
 
           <hr className="border-[2px] w-[70px] border-[#3e4095]" />
 
-          <h6 className="text-[12px] md:text-[14px] text-justify">
-            We are a trusted electrical and electronics company in Nigeria. With over five (10) years of experience, in selling, buying, delivery and working with local and international clients and partners, and a combined wealth of specialist outcome and result mixed with professionalism. Our products have been certified by various customers within and outside the country.
-          </h6>
+          <h3 className="text-[12px] md:text-[14px] text-justify">
+            We are a trusted electrical and electronics company in Nigeria. With over ten (10) years of experience, in selling, buying, delivery and working with local and international clients and partners, and a combined wealth of specialist outcome and result mixed with professionalism. Our products have been certified by various customers within and outside the country.
+          </h3>
 
           <div className="text-[12px] font-bol flex flex-col gap-2">
 
@@ -32,12 +32,12 @@ const Footer = () => {
               </div>
 
               <div>
-                <h5>Opp. Enyo Filling Station, Beside Secretariat, Bank Road, Ado-Ekiti, Ekiti State.</h5>
+                <h4 className="text-[12px]">Opp. Enyo Filling Station, Beside Secretariat, Bank Road, Ado-Ekiti, Ekiti State.</h4>
                 {/* <h5>Irawoosan Street, Ketu Alapere, Lagos.</h5> */}
               </div>
             </div>
 
-            <h5 className="flex items-center gap-2"><span className="text-[17px] text-[#3e4095]"><LuPhoneCall /></span> 08142350346 , 09034374021</h5>
+            <h4 className="flex items-center gap-2"><span className="text-[17px] text-[#3e4095]"><LuPhoneCall /></span> 08142350346 , 09034374021</h4>
 
             <h5 className="flex items-center gap-2"><span className="text-[17px] text-[#3e4095]"><MdOutlineAttachEmail /></span> divinegreatelectronics@gmail.com</h5>
             

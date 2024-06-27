@@ -5,12 +5,12 @@ import Products2Card from "../../components/static/Products2Card";
 import gen from "../../assets/images/electronics/gen3.png";
 import headphone from "../../assets/images/electronics/headPhone3.jpeg";
 import speaker from "../../assets/images/electronics/bluetooth-Speaker.jpg";
-import fan from "../../assets/images/electronics/fan.png";
-import washing from "../../assets/images/electronics/washing.png";
-import chan from "../../assets/images/electronics/chadelia.png";
-import ps4 from "../../assets/images/electronics/ps4.png";
-import toast from "../../assets/images/electronics/toast.png";
-import light from "../../assets/images/electronics/light.png";
+// import fan from "../../assets/images/electronics/fan.png";
+// import washing from "../../assets/images/electronics/washing.png";
+// import chan from "../../assets/images/electronics/chadelia.png";
+// import ps4 from "../../assets/images/electronics/ps4.png";
+// import toast from "../../assets/images/electronics/toast.png";
+// import light from "../../assets/images/electronics/light.png";
 
 
 
@@ -52,53 +52,53 @@ const Products2 = () => {
                         details3="12 Hours Battery Power"
                     />
 
-                    <Products2Card 
+                    {/* <Products2Card 
                         image={fan}
                         title="Scanfrost AC Stand Fan"
                         details1="16' AC"
                         details2="Remote Enabled"
                         details3="SFMF16RC"
-                    />
+                    /> */}
 
-                   <Products2Card 
+                   {/* <Products2Card 
                         image={washing}
                         title="Samsung Washing Machine"
                         details1="6kg Front Loading"
                         details2="Silver"
                         details3=""
-                    />
+                    /> */}
 
-                    <Products2Card 
-                        image={chan}
-                        title="Luxury Chandeliar"
-                        details1="Crystal LED"
-                        details2="High Ceiling"
-                        details3=""
-                    />
+                {/* //     <Products2Card  */}
+                {/* //         image={chan}
+                //         title="Luxury Chandeliar"
+                //         details1="Crystal LED"
+                //         details2="High Ceiling"
+                //         details3=""
+                //     /> */}
 
-                    <Products2Card 
-                        image={ps4}
-                        title="Sony PS4"
-                        details1="Pro - 1TB"
-                        details2="Console - Black"
-                        details3=""
-                    />
+                {/* //     <Products2Card 
+                //         image={ps4}
+                //         title="Sony PS4"
+                //         details1="Pro - 1TB"
+                //         details2="Console - Black"
+                //         details3=""
+                //     /> */}
 
-                   <Products2Card 
-                        image={toast}
-                        title="Breville Toastining Machine"
-                        details1="4-Face Toast"
-                        details2="Electric Enabled"
-                        details3=""
-                    />
+                {/* //    <Products2Card 
+                //         image={toast}
+                //         title="Breville Toastining Machine"
+                //         details1="4-Face Toast"
+                //         details2="Electric Enabled"
+                //         details3=""
+                //     /> */}
 
-                    <Products2Card 
-                        image={light}
-                        title="Interior Decor Light"
-                        details1="4 Colored Light"
-                        details2=""
-                        details3=""
-                    />
+                {/* //     <Products2Card 
+                //         image={light}
+                //         title="Interior Decor Light"
+                //         details1="4 Colored Light"
+                //         details2=""
+                //         details3=""
+                //     /> */}
 
 
                 {/* </Slider> */}

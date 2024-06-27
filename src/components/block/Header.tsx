@@ -158,9 +158,9 @@ const Header = () => {
                         <MdClose />
                     </div>
 
-                    <h6 className='font-bold text-[16px] text-[#3e4095] bg-white p-2 rounded-md'>
-                        Cartegories
-                    </h6>
+                    <h1 className='font-bold text-[16px] text-[#3e4095] bg-white p-2 rounded-md'>
+                        All Available Products
+                    </h1>
 
                     <a href="" className='text-white hover:text-white flex items-center gap-4'><span className="text-[15px]"><PiTelevisionSimpleLight /></span>Televisions</a>
                     <a href="" className='text-white hover:text-white flex items-center gap-4'><span className="text-[15px]"><GiPowerGenerator /></span>Generators</a>

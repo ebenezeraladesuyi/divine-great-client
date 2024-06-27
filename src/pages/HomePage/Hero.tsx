@@ -67,10 +67,10 @@ const Hero = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
             >
-                <h6 className="mb-[7px] p-1 border-b-[1px] border-t-[1px] border-b-gray-300 border-t-gray-300 bg-gray-300 pl-2 rounded-md">All Categories</h6>
-                <h6 className="p-1 border-b-[1px] border-t-[1px border-b-gray-300 border-t-gray-30 flex items-center gap-4"><span className="text-[20px]"><PiTelevisionSimpleLight /></span>Televisions</h6>
-                <h6 className="p-1 border-b-[1px] border-t-[1px border-b-gray-300 border-t-gray-30 flex items-center gap-4"><span className="text-[20px]"><GiPowerGenerator /></span>Generators</h6>
-                <h6 className="p-1 border-b-[1px] border-b-gray-300  flex items-center gap-4"><span className="text-[20px]"><MdOutlineKitchen /></span>Air Conditioners</h6>
+                <h2 className="mb-[7px] p-1 border-b-[1px] border-t-[1px] border-b-gray-300 border-t-gray-300 bg-gray-300 pl-2 rounded-md text-[18px]">All Categories</h2>
+                <h3 className="p-1 border-b-[1px] border-t-[1px border-b-gray-300 border-t-gray-30 flex items-center gap-4"><span className="text-[20px]"><PiTelevisionSimpleLight /></span>Televisions</h3>
+                <h4 className="p-1 border-b-[1px] border-t-[1px border-b-gray-300 border-t-gray-30 flex items-center gap-4"><span className="text-[20px]"><GiPowerGenerator /></span>Generators</h4>
+                <h5 className="p-1 border-b-[1px] border-b-gray-300  flex items-center gap-4"><span className="text-[20px]"><MdOutlineKitchen /></span>Air Conditioners</h5>
                 <h6 className="p-1 border-b-[1px] border-b-gray-300  flex items-center gap-4"><span className="text-[20px]"><RiHomeWifiLine /></span>Home Appliances</h6>
                 <h6 className="p-1 border-b-[1px] border-b-gray-300  flex items-center gap-4"><span className="text-[20px]"><FaKitchenSet /></span>Kitchen Appliances</h6>
                 <h6 className="p-1 border-b-[1px] border-b-gray-300  flex items-center gap-4"><span className="text-[20px]"><RiArmchairFill /></span>Furnitures</h6>

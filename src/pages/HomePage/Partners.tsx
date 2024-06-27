@@ -12,7 +12,7 @@ import hp from "../../assets/images/partners/hp.png";
 import lg from "../../assets/images/partners/lg.png";
 import panasonic from "../../assets/images/partners/panasonic.png";
 import playstation from "../../assets/images/partners/playstation.png";
-import samsung from "../../assets/images/partners/samsung.png";
+// import samsung from "../../assets/images/partners/samsung.png";
 import elepaq from "../../assets/images/partners/elepaq.png";
 import hisense from "../../assets/images/partners/hisense.png";
 
@@ -86,9 +86,9 @@ const Partners = () => {
                 <PartnersCard  
                     image={playstation}
                 />
-                <PartnersCard  
+                {/* <PartnersCard  
                     image={samsung}
-                />
+                /> */}
                 <PartnersCard  
                     image={elepaq}
                 />

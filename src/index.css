@@ -64,6 +64,7 @@ button:focus-visible {
   :root {
     color: #213547;
     background-color: #ffffff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   a:hover {
     color: #747bff;
