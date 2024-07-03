@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 // import React from 'react'
 
-// import { FaPlaneUp } from "react-icons/fa6";
+// import { FaPlaneUp } from "react-icon
 
 interface iShip {
     icon : any;
@@ -11,7 +11,8 @@ interface iShip {
 
 const ShipmentCard:React.FC<iShip> = ({icon, title, details}) => {
   return (
-    <div className="w-full md:w-[30%] flex items-center justify-between gap-4" >
+    <div className="w-full md:w-[30%] flex items-center justify-between gap-4" 
+    >
         <div className="text-[40px]">
             {/* <FaPlaneUp /> */}
             {icon}

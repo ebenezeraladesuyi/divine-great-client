@@ -13,23 +13,23 @@ interface iProduct2Card {
 
 const Products2Card:React.FC<iProduct2Card> = ({image, title, details1, details2, details3}) => {
   return (
-    <div className="w-full md:w-[47%] lg:w-[32%] h-[170px] md:h-[200px] border-gray-300 border-[1px] rounded-md p-3 flex items-center justify-center gap-5">
+      <div className="w-full md:w-[47%] lg:w-[32%] h-[170px] md:h-[200px] border-gray-300 border-[1px] rounded-md p-3 flex items-center justify-center gap-5"
+      >
+          <div className="w-[40%]">
+              <img src={image} className="w-full" alt="" />
+          </div>
 
-        <div className="w-[40%]">
-            <img src={image} className="w-full" alt="" />
-        </div>
+          <div className="flex flex-col gap-">
+              <h6 className="font-bold  md:text-[18px]">{title}</h6>
 
-        <div className="flex flex-col gap-">
-            <h6 className="font-bold  md:text-[18px]">{title}</h6>
+              <h6 className="text-gray-400 text-[13px] md:text-[16px]">{details1} </h6>
 
-            <h6 className="text-gray-400 text-[13px] md:text-[16px]">{details1} </h6>
+              <h6 className="text-gray-400 text-[13px] md:text-[16px]">{details2}</h6>
 
-            <h6 className="text-gray-400 text-[13px] md:text-[16px]">{details2}</h6>
+              <h6 className="text-gray-400 text-[13px] md:text-[16px]">{details3}</h6>
 
-            <h6 className="text-gray-400 text-[13px] md:text-[16px]">{details3}</h6>
-
-            <a href="" className="text-[#3e4095 flex items-center gap-3 mt-[7px] text-[13px] md:text-[16px] ">Buy Now <span><FaArrowRightLong /></span></a>
-        </div>
+              <a href="" className="text-[#3e4095 flex items-center gap-3 mt-[7px] text-[13px] md:text-[16px] ">Buy Now <span><FaArrowRightLong /></span></a>
+          </div>
 
     </div>
   )

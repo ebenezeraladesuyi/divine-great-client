@@ -14,7 +14,7 @@ const Contact = () => {
 
     <Helmet>
         <title>Contact/Talk to us @ Divine Great Electrical & Electronics Nig.</title>
-        <meta name="description" content="Shop the best and latest electrical and electronics appliances, such as generators, furnitures, wires and cables, kitchen and household appliances, interior decor etc. " />
+        <meta name="description" content="Shop the best electrical and electronics appliances, such as generators, furnitures, wires and cables, kitchen and household appliances, interior decor etc. in Ado-Ekiti" />
         <link rel="canonical" href="/contact" />
       </Helmet>
     

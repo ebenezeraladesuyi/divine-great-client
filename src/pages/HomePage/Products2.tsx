@@ -5,6 +5,7 @@ import Products2Card from "../../components/static/Products2Card";
 import gen from "../../assets/images/electronics/gen3.png";
 import headphone from "../../assets/images/electronics/headPhone3.jpeg";
 import speaker from "../../assets/images/electronics/bluetooth-Speaker.jpg";
+import RevealMap from "../../animation/RevealMap";
 // import fan from "../../assets/images/electronics/fan.png";
 // import washing from "../../assets/images/electronics/washing.png";
 // import chan from "../../assets/images/electronics/chadelia.png";
@@ -24,7 +25,8 @@ const Products2 = () => {
                 <a href="" className="flex items-center gap-3 cursor-pointer text-[#3e4095] text-[13px] animate-pulse">Order Now <span><FaArrowRightLong /></span></a>
             </div>
 
-            <div className="w-full flex flex-col md:flex-row md:justify-between gap-4 flex-wrap">
+            <RevealMap>
+                <div className="w-full flex flex-col md:flex-row md:justify-between gap-4 flex-wrap">
                 
                 {/* <Slider {...settings}> */}
 
@@ -36,7 +38,7 @@ const Products2 = () => {
                         details3="24 Hours Non-Stops"
                     />
 
-                   <Products2Card 
+                    <Products2Card 
                         image={speaker}
                         title="Echo Dot (4th Gen)"
                         details1="Smart Speaker"
@@ -103,7 +105,8 @@ const Products2 = () => {
 
                 {/* </Slider> */}
 
-            </div>
+                </div>
+            </RevealMap>
 
             <a href="" className="cursor-pointer text-[13px] md:text-[16px] flex items-center gap-3 justify-center md:justify-start lg:justify-end">See More Products.. (Chat Us) <span><FaArrowRightLong /></span></a>
         </div>
