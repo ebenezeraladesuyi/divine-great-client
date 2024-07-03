@@ -28,7 +28,7 @@ const Products2Card:React.FC<iProduct2Card> = ({image, title, details1, details2
 
               <h6 className="text-gray-400 text-[13px] md:text-[16px]">{details3}</h6>
 
-              <a href="" className="text-[#3e4095 flex items-center gap-3 mt-[7px] text-[13px] md:text-[16px] ">Buy Now <span><FaArrowRightLong /></span></a>
+              <a href="https://api.whatsapp.com/send?phone=2349034374021" className="text-[#3e4095 flex items-center gap-3 mt-[7px] text-[13px] md:text-[16px] ">Buy Now <span><FaArrowRightLong /></span></a>
           </div>
 
     </div>

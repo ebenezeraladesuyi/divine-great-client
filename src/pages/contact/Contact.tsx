@@ -48,7 +48,7 @@ const Contact = () => {
             </button>
 
             <h3 className="text-[14px] font-bold mt-[40px]">
-              Chat with us directly on <a className="text-[#3e4095] border-[1px] border-[#3e4095] p-2 rounded-md hover:text-black" href="">Whatsapp</a>
+              Chat with us directly on <a className="text-[#3e4095] border-[1px] border-[#3e4095] p-2 rounded-md hover:text-black" href="https://api.whatsapp.com/send?phone=2349034374021">Whatsapp</a>
             </h3>
 
           </form>

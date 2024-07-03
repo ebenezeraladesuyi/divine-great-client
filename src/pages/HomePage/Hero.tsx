@@ -108,7 +108,7 @@ const Hero = () => {
                                     transition={{ duration: 0.8, delay: 1.5 }}
                                 >Up to <span className="text-[16px] font-bold text-red-400">25%</span> OFF!</motion.h6>
 
-                                <motion.a href="" className="w-[150px] bg-[#3e4095] text-white hover:text-white hover:bg-gray-400 rounded-[20px] text-center py-1 md:py-2"
+                                <motion.a href="https://api.whatsapp.com/send?phone=2349034374021" className="w-[150px] bg-[#3e4095] text-white hover:text-white hover:bg-gray-400 rounded-[20px] text-center py-1 md:py-2"
                                     initial={{ opacity: 0, y: -50 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.8, delay: 1.7 }}
@@ -144,7 +144,7 @@ const Hero = () => {
                                     transition={{ duration: 0.8, delay: 1.5 }}
                                 >Up to <span className="text-[16px] font-bold text-red-400">25%</span> OFF!</motion.h6>
 
-                                <motion.a href="" className="w-[150px] bg-[#3e4095] text-white hover:text-white hover:bg-gray-400 rounded-[20px] text-center py-1 md:py-2"
+                                <motion.a href="https://api.whatsapp.com/send?phone=2349034374021" className="w-[150px] bg-[#3e4095] text-white hover:text-white hover:bg-gray-400 rounded-[20px] text-center py-1 md:py-2"
                                     initial={{ opacity: 0, y: -50 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.8, delay: 1.7 }}
@@ -180,7 +180,7 @@ const Hero = () => {
                                     transition={{ duration: 0.8, delay: 1.5 }}
                                 >Up to <span className="text-[16px] font-bold text-red-400">25%</span> OFF!</motion.h6>
 
-                                <motion.a href="" className="w-[150px] bg-[#3e4095] text-white hover:text-white hover:bg-gray-400 rounded-[20px] text-center py-1 md:py-2"
+                                <motion.a href="https://api.whatsapp.com/send?phone=2349034374021" className="w-[150px] bg-[#3e4095] text-white hover:text-white hover:bg-gray-400 rounded-[20px] text-center py-1 md:py-2"
                                     initial={{ opacity: 0, y: -50 }}
                                     animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.8, delay: 1.7 }}
