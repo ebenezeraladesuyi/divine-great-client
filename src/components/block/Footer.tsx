@@ -11,7 +11,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div id="footer" className='w-full flex flex-col justify-center items-center font-pop bg-gray-20 pt-[40px] text-[##8995af] gap-5 relative'>
+    <div id="footer" className='w-full flex flex-col justify-center items-center font-pop bg-gray-20 pt-[40px] text-[##8995af] gap-5 relative bg-white'>
       <div className="w-[90%] flex flex-col md:flex-row md:justify-between gap-5 md:gap-6 lg:gap-8">
 
         <div className=" flex flex-col gap-3 mb-[15px] md:mb-0 md:w-[40%]">
