@@ -21,7 +21,7 @@ const Products1 = () => {
                 <div className="flex flex-col gap-1 ">
                     <h6 className="font-bold text-[13px] md:text-[16px]">Hisense Supercool <br />Air Conditioner</h6>
                     <h6 className="font-bold text-red-400 text-[13px] md:text-[16px]">5% Off!</h6>
-                    <a href="" className="bg-[#3e4095] py-1 md:py-2 w-[100px] text-white hover:text-white text-center rounded-[25px] hover:bg-gray-300 text-[13px] md:text-[16px]">Shop Now</a>
+                    <a href="https://api.whatsapp.com/send?phone=2349034374021" className="bg-[#3e4095] py-1 md:py-2 w-[100px] text-white hover:text-white text-center rounded-[25px] hover:bg-gray-300 text-[13px] md:text-[16px]">Shop Now</a>
                 </div>
             </div>
             </RevealMap>
@@ -31,7 +31,7 @@ const Products1 = () => {
                 <div className="flex flex-col gap-1 ">
                     <h6 className="font-bold text-[13px] lg:text-[18px] md:text-[16px]">Hisense Supercool <br />Air Conditioner</h6>
                     <h6 className="font-bold text-red-400 text-[13px] md:text-[16px]">6% Off!</h6>
-                    <a href="" className="bg-[#3e4095] py-1 md:py-2 w-[100px] text-white hover:text-white text-center rounded-[25px] hover:bg-gray-300 text-[13px] md:text-[16px]">Shop Now</a>
+                    <a href="https://api.whatsapp.com/send?phone=2349034374021" className="bg-[#3e4095] py-1 md:py-2 w-[100px] text-white hover:text-white text-center rounded-[25px] hover:bg-gray-300 text-[13px] md:text-[16px]">Shop Now</a>
                 </div>
 
                 <div className="w-[35%]">
